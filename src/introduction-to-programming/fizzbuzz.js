@@ -7,7 +7,6 @@ const fizzBuzz = (begin, end) => {
     return;
   }
 
-
   for (let i = begin; i <= end; i += 1) {
     if (isFizz(i) && isBuzz(i)) {
       console.log('FizzBuzz');
