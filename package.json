@@ -1,0 +1,39 @@
+{
+  "name": "hexlet-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/",
+  "scripts": {
+    "test": "jest",
+    "babel-node": "babel-node",
+    "eslint": "eslint",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beloglazof/hexlet-challenges.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Slava Beloglazov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beloglazof/hexlet-challenges/issues"
+  },
+  "homepage": "https://github.com/beloglazof/hexlet-challenges#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "^23.4.2",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^23.5.0",
+    "regenerator-runtime": "^0.12.1"
+  }
+}
