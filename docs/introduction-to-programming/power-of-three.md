@@ -2,4 +2,4 @@
 
 Реализуйте функцию `isPowerOfThree`, которая определяет, является ли переданное число натуральной степенью тройки. Например, число 27 это третья степень, а 81 это четвертая.
 
-[Решение](../src/introduction-to-programming/isPowerOfThree.js)
+[Решение](../../src/introduction-to-programming/isPowerOfThree.js)
