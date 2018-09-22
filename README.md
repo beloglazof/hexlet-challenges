@@ -9,7 +9,7 @@
 - [ ] [DNA to RNA]()
 - [ ] [Happy ticket]()
 - [ ] [Invert case]()
-- [ ] [Happy numbers](docs/introduction-to-programming/happy-numbers.md)
+- [x] [Happy numbers](docs/introduction-to-programming/happy-numbers.md)
 - [ ] [Angle difference]()
 - [ ] [Perfect numbers]()
 - [ ] [Sum square difference]()
